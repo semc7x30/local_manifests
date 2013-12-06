@@ -24,13 +24,6 @@ cherries+=(54289)
 # Prevent Sym key from showing the IME picker
 cherries+=(54749)
 
-# MediaProvider: fetch volume ID from MountService
-cherries+=(55099)
-# vold: add command allow volume id to be queried
-cherries+=(55100)
-# MountService: add API to fetch Volume ID through vold
-cherries+=(55102)
-
 # keyguard: fix layout for hdpi & mdpi devices
 cherries+=(54758)
 # SystemUI: Fix battery indicator alignment
