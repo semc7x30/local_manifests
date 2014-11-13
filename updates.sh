@@ -11,9 +11,6 @@ fi
 # build: Handle boot images with custom makefile properly
 cherries+=(76919)
 
-# recovery: build uncompressed ramdisk
-cherries+=(76570)
-
 # build: recovery: Support adding device-specific items
 cherries+=(76553)
 
