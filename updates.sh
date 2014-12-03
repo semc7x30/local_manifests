@@ -19,18 +19,6 @@ cherries+=(78849)
 # Android: driver_nl80211: implement NoA/p2p_ps/set_wps_ie stubs
 cherries+=(78120)
 
-# Legacy RIL requires radio technology equals CDMA or GSM
-cherries+=(79912)
-
-# Implement fakeiccid for legacy rils (1/2)
-cherries+=(79834)
-
-# CardStateMonitor: Use fakeiccid if needed for legacy ril (2/2)
-cherries+=(79835)
-
-# recovery: Always include ext4 stuff
-cherries+=(79803)
-
 # capabilities ERANG error fix
 cherries+=(78853)
 
