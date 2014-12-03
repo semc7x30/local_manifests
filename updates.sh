@@ -19,6 +19,21 @@ cherries+=(78849)
 # Android: driver_nl80211: implement NoA/p2p_ps/set_wps_ie stubs
 cherries+=(78120)
 
+# fw/base: allow home button to wake device [1/2]
+cherries+=(79914)
+
+# Settings: allow home button to wake device [2/2]
+cherries+=(79915)
+
+# Implement fakeiccid for legacy rils (1/2)
+cherries+=(79834)
+
+# CardStateMonitor: Use fakeiccid if needed for legacy ril (2/2)
+cherries+=(79835)
+
+# recovery: Always include ext4 stuff
+cherries+=(79803)
+
 # capabilities ERANG error fix
 cherries+=(78853)
 
@@ -26,6 +41,6 @@ cherries+=(78853)
 cherries+=(79136)
 
 # libutils: refbase: jellybean mr1 compat
-cherries2+=(79142)
+cherries+=(79142)
 
 ${android}/build/tools/repopick.py -b ${cherries[@]}
