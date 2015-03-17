@@ -18,11 +18,17 @@ cherries+=(CM_66213)
 # libstagefright: Fix video encoder input buffer
 cherries+=(CM_66214)
 
-# Keyguard: enlarge lockpattern on small screens
-cherries+=(CM_78962)
-
 # Revert "Android: Use extended P2P functionality (ANDROID_P2P) for all vendors"
 cherries+=(CM_91277)
+
+# Fix FREAK attack
+cherries+=(CM_91626)
+
+# Fix FREAK attack
+cherries+=(CM_91628)
+
+# ril: Backport error return on unsupported request code
+cherries+=(LX_244)
 
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
