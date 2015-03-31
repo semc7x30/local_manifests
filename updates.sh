@@ -27,8 +27,41 @@ cherries+=(CM_88635)
 # audio: Make getPresentationPosition pure virtual
 cherries+=(CM_92381)
 
-# audio: Fixed Audio Source in Voice Call
-cherries+=(CM_92643)
+# audio: Initialized mAttributes in AudioTrack
+cherries+=(CM_92881)
+
+# AudioTrack: Align with CAF
+cherries+=(CM_92897)
+
+# SurfaceFlinger: Featurize libuiblur module for OSS build
+cherries+=(CM_92900)
+
+# dashplayer: ensure dashplayer used for .mpd
+cherries+=(LX_304)
+
+# mm-video-legacy: vdec: add YUV420SP support in surface-mode
+cherries+=(LX_305)
+
+# mm-video:vdec: Fix C2D output buffer stride and sliceheight.
+cherries+=(LX_306)
+
+# mm-video: venc: do not send duplicate EBDs in case of an error
+cherries+=(LX_307)
+
+# mm-video: vdec: Avoid color conversion for Empty EOS O/P buffer.
+cherries+=(LX_308)
+
+# mm-video: vdec: allocate color-conversion buffers as uncached
+cherries+=(LX_309)
+
+# gralloc: Report YUV plane info
+cherries+=(LX_310)
+
+# gralloc: Fix NV12 and NV21 stride
+cherries+=(LX_311)
+
+# gralloc: fix getYUVPlaneInfo for YV12 format
+cherries+=(LX_312)
 
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
