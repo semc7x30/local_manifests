@@ -12,9 +12,6 @@ if [ -f ${android}/updates-local.sh ]; then
     source ${android}/updates-local.sh
 fi
 
-# Use RECOVERY_PRE_COMMAND before calling __reboot() recovery
-cherries+=(CM_115693)
-
 # Revert "Revert "Reenable support for non-PIE executables""
 cherries+=(CM_117733)
 
