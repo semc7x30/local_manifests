@@ -18,9 +18,11 @@ cherries+=(CM_117733)
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(CM_123032)
 
+# [1/2] cmsdk: cm custom boot dexopt UI
+cherries+=(CM_153969)
 
-# datspinner: low resource fake material progress spinner
-cherries+=(LX_1117)
+# [2/2] base: cm custom boot dexopt UI
+cherries+=(CM_153979)
 
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
