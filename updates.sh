@@ -18,8 +18,6 @@ cherries+=(CM_117733)
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(CM_123032)
 
-# recovery: Add wipe system partition option
-cherries+=(CM_129827)
 
 # datspinner: low resource fake material progress spinner
 cherries+=(LX_1117)
