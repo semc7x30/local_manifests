@@ -21,11 +21,14 @@ cherries+=(CM_117733)
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(CM_123032)
 
-# policy: Show a simple dialog about optimizing apps
-cherries+=(CM_131627)
-
 # Barrier only messages shouldn't prevent the idle handlers from running
 cherries+=(CM_131628)
+
+# [1/2] cmsdk: cm custom boot dexopt UI
+cherries+=(CM_153969)
+
+# [2/2] base: cm custom boot dexopt UI
+cherries+=(CM_153979)
 
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
