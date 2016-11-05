@@ -21,6 +21,9 @@ cherries+=(CM_167387)
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(CM_167388)
 
+# Revert "Create symlink in the case where device has no cache partition"
+cherries+=(CM_169160)
+
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
 else
