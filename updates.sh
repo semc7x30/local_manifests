@@ -21,6 +21,9 @@ cherries+=(CM_167387)
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(CM_167388)
 
+# mkyaffs2image: fix stats for cache image
+cherries+=(CM_170913)
+
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
 else
