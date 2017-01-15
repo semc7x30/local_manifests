@@ -24,6 +24,9 @@ cherries+=(LAOS_1175)
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(LAOS_2643)
 
+# bootanimation: Adapt for small display sizes
+cherries+=(LAOS_156542)
+
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
 else
