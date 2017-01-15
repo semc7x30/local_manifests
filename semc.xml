@@ -44,4 +44,8 @@
   <!-- AOSP projects-->
   <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" remote="aosp" revision="master" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="master" />
+
+  <!-- TWRP Recovery projects -->
+  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" revision="android-7.1" />
+  <project path="external/busybox" name="omnirom/android_external_busybox" revision="android-7.1" />
 </manifest>
