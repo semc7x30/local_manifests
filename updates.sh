@@ -12,6 +12,9 @@ if [ -f ${android}/updates-local.sh ]; then
     source ${android}/updates-local.sh
 fi
 
+# WIP unmerged commits
+source ${android}/vendor/extra/updates-wip.sh
+
 # selinux: add selinux_status_getenforce to header
 cherries+=(LAOS_60713)
 
