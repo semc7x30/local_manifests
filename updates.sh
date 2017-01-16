@@ -12,6 +12,9 @@ if [ -f ${android}/updates-local.sh ]; then
     source ${android}/updates-local.sh
 fi
 
+# WIP unmerged commits
+source ${android}/vendor/extra/updates-wip.sh
+
 # Add LOCAL_NO_FPIE for target executables
 cherries+=(LAOS_159624)
 
