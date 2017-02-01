@@ -21,8 +21,11 @@ cherries+=(LAOS_142846)
 # Revert "Revert "Reenable support for non-PIE executables""
 cherries+=(LAOS_1175)
 
-# arm: Allow disabling PIE for dynamically linked executables
-cherries+=(LAOS_2643)
+# DO NOT MERGE: Add LOCAL_NO_FPIE for target executables
+cherries+=(LAOS_159624)
+
+# DO NOT MERGE: Allow disabling PIE for cameraserver
+cherries+=(LAOS_159627)
 
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
