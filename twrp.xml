@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="omnirom"
+          fetch="https://github.com/omnirom"
+          review="gerrit.omnirom.org" />
+
+  <!-- TWRP instead of CM recovery -->
+  <remove-project path="bootable/recovery" name="LineageOS/android_bootable_recovery"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-7.1"/>
+</manifest>
