@@ -24,6 +24,12 @@ cherries+=(LAOS_159624)
 # DO NOT MERGE: Allow disabling PIE for cameraserver
 cherries+=(LAOS_159627)
 
+# mtdutils: Fix mounting partitions by-name
+cherries+=(OMNI_21655)
+
+# Fix for LineageOS build
+cherries+=(OMNI_22096)
+
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
 else
