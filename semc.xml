@@ -4,6 +4,10 @@
           fetch="https://github.com"
           review="review.msm7x30.org" />
 
+  <remote name="omnirom"
+          fetch="https://github.com/omnirom"
+          review="gerrit.omnirom.org" />
+
   <project name="LegacyXperia/local_manifests" path="vendor/extra" remote="msm7x30" />
 
   <!-- LegacyXperia projects -->
@@ -40,6 +44,9 @@
   <project name="LineageOS/android_external_stlport" path="external/stlport" />
 
   <project name="LineageOS/android_hardware_sony_DASH" path="hardware/sony/DASH" />
+
+  <!-- TWRP -->
+  <project name="android_bootable_recovery" path="bootable/recovery-twrp" remote="omnirom" revision="android-7.1"/>
 
   <!-- AOSP projects-->
   <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" remote="aosp" revision="master" />
